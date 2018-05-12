@@ -30,8 +30,10 @@ if (Input::exists()) {
         if ($validation->passed()) {
 
             // register user
-            Session::flash('success', 'You have been registered successfully!');
-            header('Location: index.php');
+            //Session::flash('success', 'You have been registered successfully!');
+            //header('Location: index.php');
+
+            
 
         } else {
             // output errors
