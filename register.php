@@ -33,8 +33,28 @@ if (Input::exists()) {
             //Session::flash('success', 'You have been registered successfully!');
             //header('Location: index.php');
 
-            
+            $user = new User();
+            $salt = Hash::salt(32);
 
+            try {
+                // try to insert user, otherwise throw exception
+                $user->create(array(
+                        // fields to insert to DB
+                        'username'    => Input::get('username'),
+                        'password'    => Hash::make(Input::get('password'), $salt),
+                        'email'       => Input::get('email'),
+                        'salt'        => $salt,
+                        'name'        => Input::get('name'),
+                        'joined'      => date('Y-m-d H:i:s'),
+                        'group'       => 1,
+                ));
+
+                Session::flash('home', 'You have been registered and can now log in!');
+                Redirect::to('index.php');
+
+            } catch (Exception $e) {
+                die($e->getMessage());
+            }
         } else {
             // output errors
             foreach ($validation->errors() as $error) {
@@ -89,7 +109,7 @@ if (Input::exists()) {
     <input type="hidden" name="token" value="<?php echo Token::generate(); ?>">
 
     <input type="submit" class="btn btn-lg btn-primary btn-block" value="Register">
-    <input type="submit" class="btn btn-lg btn-info btn-block" value="Log in" onclick="document.location='login.php'">
+    <input type="button" class="btn btn-lg btn-info btn-block" value="Log in" onclick="document.location='login.php'">
 
     <p class="mt-5 mb-3 text-muted">&copy; Created by Alex Baer in 2018</p>
 </form>
