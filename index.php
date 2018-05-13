@@ -7,4 +7,5 @@ if (Session::exists('home')) {
 
 echo Session::get(Config::get('session/session_name'));
 
+
 ?>
