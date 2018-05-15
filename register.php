@@ -91,19 +91,19 @@ if (Input::exists()) {
 
 
     <label for="email" class="sr-only"></label>
-    <input type="email" class="form-control" id="email" name="email" placeholder="Your email" autofocus>
+    <input type="email" class="form-control" id="email" name="email" placeholder="Your email" autofocus required>
 
     <label for="username" class="sr-only"></label>
-    <input type="text" class="form-control" id="username" name="username" placeholder="Username" value="<?php echo escape(Input::get('username')); ?>" autocomplete="off">
+    <input type="text" class="form-control" id="username" name="username" placeholder="Username" value="<?php echo escape(Input::get('username')); ?>" autocomplete="off" required>
 
     <label for="name" class="sr-only"></label>
-    <input type="text" class="form-control" id="name" name="name" placeholder="Your name" value="<?php echo escape(Input::get('name')); ?>" autocomplete="off">
+    <input type="text" class="form-control" id="name" name="name" placeholder="Your name" value="<?php echo escape(Input::get('name')); ?>" autocomplete="off" required>
 
     <label for="password" class="sr-only"></label>
-    <input type="password" class="form-control" id="password" name="password" placeholder="Choose password">
+    <input type="password" class="form-control" id="password" name="password" placeholder="Choose password" required>
 
     <label for="password_again" class="sr-only"></label>
-    <input type="password" class="form-control" id="password_again" name="password_again" placeholder="Enter password again">
+    <input type="password" class="form-control" id="password_again" name="password_again" placeholder="Enter password again" required>
 
     <!-- Generate token for session then user click submit -->
     <input type="hidden" name="token" value="<?php echo Token::generate(); ?>">

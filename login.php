@@ -58,10 +58,10 @@ if (Input::exists()) {
     <h1 class="h1 font-weight-bold">Sign in</h1>
 
     <label for="username" class="sr-only">Email address</label>
-    <input type="text" class="form-control" id="username" name="username" placeholder="Username" autocomplete="off" autofocus>
+    <input type="text" class="form-control" id="username" name="username" placeholder="Username" autocomplete="off" autofocus required>
 
     <label for="password" class="sr-only">Password</label>
-    <input type="password" class="form-control" id="password" name="password" placeholder="Password" autocomplete="off">
+    <input type="password" class="form-control" id="password" name="password" placeholder="Password" autocomplete="off" required>
 
     <div class="checkbox mb-3">
         <label class="check">
