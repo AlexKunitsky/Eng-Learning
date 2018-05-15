@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1aa669d1-42b1-48a1-970e-2f734c7307d5" name="Default" comment="starting to connect class User to register" />
+    <list default="true" id="1aa669d1-42b1-48a1-970e-2f734c7307d5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +37,11 @@
       <file leaf-file-name="testpage.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testpage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="-160">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#14704#14710#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,7 +140,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,6 +194,7 @@
       <workItem from="1526128890524" duration="17208000" />
       <workItem from="1526195450954" duration="155000" />
       <workItem from="1526387015943" duration="254000" />
+      <workItem from="1526387302871" duration="279000" />
     </task>
     <task id="LOCAL-00001" summary="starting to connect class User to register">
       <created>1526145424162</created>
@@ -199,14 +203,22 @@
       <option name="project" value="LOCAL" />
       <updated>1526145424162</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add new fonts, page for tests">
+      <created>1526387363360</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526387363360</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96720000" />
+    <option name="totallyTimeSpent" value="96999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.080729164" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -238,7 +250,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="starting to connect class User to register" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting to connect class User to register" />
+    <MESSAGE value="add new fonts, page for tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new fonts, page for tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -316,13 +329,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://c0dbaaa4-8b26-4136-a020-7f5d52e79e1f/schema/eng-app/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://c0dbaaa4-8b26-4136-a020-7f5d52e79e1f/schema/eng-app/table/users" />
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
@@ -372,13 +379,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://c0dbaaa4-8b26-4136-a020-7f5d52e79e1f/schema/eng-app/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://c0dbaaa4-8b26-4136-a020-7f5d52e79e1f/schema/eng-app/table/users" />
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -400,13 +401,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://c0dbaaa4-8b26-4136-a020-7f5d52e79e1f/schema/eng-app/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://c0dbaaa4-8b26-4136-a020-7f5d52e79e1f/schema/eng-app/table/users" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1512">
@@ -415,20 +410,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../PHP/class24.php" />
-    <entry file="das://c0dbaaa4-8b26-4136-a020-7f5d52e79e1f/schema/eng-app/table/groups">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c0dbaaa4-8b26-4136-a020-7f5d52e79e1f/schema/eng-app/table/users_session">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://c0dbaaa4-8b26-4136-a020-7f5d52e79e1f/schema/eng-app/table/groups" />
+    <entry file="das://c0dbaaa4-8b26-4136-a020-7f5d52e79e1f/schema/eng-app/table/users_session" />
     <entry file="file://$PROJECT_DIR$/classes/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -570,13 +553,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://c0dbaaa4-8b26-4136-a020-7f5d52e79e1f/schema/eng-app/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://c0dbaaa4-8b26-4136-a020-7f5d52e79e1f/schema/eng-app/table/users" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -586,8 +563,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testpage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="-160">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#14704#14710#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
